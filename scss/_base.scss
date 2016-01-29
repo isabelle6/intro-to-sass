@@ -1,0 +1,16 @@
+// Colors
+$turquoise: #3e9a83;
+$purple: #473271;
+$grey: #aaaaaa;
+$dark-grey: #666666;
+$white: #fff;
+
+// You can use variables inside variables
+$primary: $turquoise;
+$secondary: $purple;
+
+// Put the Google Font above where you declare it as a variable
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+// Font Families
+$helvetica: Helvetica, Arial, sans-serif;
+$lora: 'Lora', serif;

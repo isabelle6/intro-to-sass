@@ -1,0 +1,59 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Lora", serif;
+}
+
+.border, ul {
+  border: 1px solid #aaaaaa;
+}
+
+.border p, ul p {
+  color: #3e9a83;
+}
+
+@media only screen and (min-width: 30em) {
+  .border, ul {
+    border-color: #473271;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .border, ul {
+    border-color: #3e9a83;
+  }
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #473271;
+}
+
+.primary-btn:hover {
+  background: #7555b4;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #3e9a83;
+}
+
+.secondary-btn:hover {
+  background: #76c8b3;
+}
+
+/*# sourceMappingURL=style.css.map */
